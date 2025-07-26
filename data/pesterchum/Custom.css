@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Anonymous Pro', sans-serif;
+}
+
+/* - Square Profile Pictures - */
+
+.IconBase-sc-igncj4-0.bTjVNf.avatar img {
+  border-radius: 0;
+}
+
+/* - Friends (Sidebar) - */
+
+a:nth-child(2) [class^=_item_1avxi_1] [class^=_content_1avxi_40]>span {
+  visibility: hidden;
+}
+
+a:nth-child(2) [class^=_item_1avxi_1] [class^=_content_1avxi_40]>span::before {
+  content: "Chums";
+  visibility: visible;
+  display: inline-block;
+}
+
+/* - Top bar, Friends section - */
+
+._title_sd6wo_1 {
+  visibility: hidden;
+}
+
+._title_sd6wo_1::before {
+  content: "Chums";
+  visibility: visible;
+  display: inline-block;
+}
+
+/* TODO: MUTUAL FRIENDS, NO FRIENDS IN COMMON */

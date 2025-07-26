@@ -1,0 +1,45 @@
+slug = "pesterchum"
+name = "Pesterchum"
+tags = ["Yellow"]
+creator = "unboundedDomain"
+description = "A theme based on the ficticous Homestuck chat program, Pesterchum."
+version = "1.0.0"
+commit = "ee3b54b"
+
+[variables]
+accent = "#fff700"
+background = "#5c4000"
+foreground = "#ffffff"
+block = "#000000"
+message-box = "#c48a00"
+mention = "#c48a00"
+success = "#65e572"
+warning = "#ffaa00"
+tooltip = "#000000"
+error = "#f60100"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#c48a00"
+track = "transparent"
+
+[variables.primary]
+background = "transparent"
+header = "#c48a00"
+
+[variables.secondary]
+background = "#996b00"
+foreground = "#ffffff"
+header = "#996b00"
+
+[variables.tertiary]
+background = "#996b00"
+foreground = "#eebd49"
+
+[variables.status]
+online = "#198619"
+away = "#dddd00"
+focus = "#276dd6"
+busy = "#d50100"
+streaming = "#aa55ff"
+invisible = "#c3c3c3"
