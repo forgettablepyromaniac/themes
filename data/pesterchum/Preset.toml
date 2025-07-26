@@ -18,6 +18,7 @@ warning = "#ffaa00"
 tooltip = "#000000"
 error = "#f60100"
 hover = "rgba(0, 0, 0, 0.1)"
+light = false
 
 [variables.scrollbar]
 thumb = "#c48a00"

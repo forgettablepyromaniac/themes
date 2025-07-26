@@ -34,4 +34,30 @@ a:nth-child(2) [class^=_item_1avxi_1] [class^=_content_1avxi_40]>span::before {
   display: inline-block;
 }
 
-/* TODO: MUTUAL FRIENDS, NO FRIENDS IN COMMON */
+/* - No Friends in Common, ect - */
+/* TODO: Figure out if user is in Profile, Friends, Groups, or Servers tab, change content accordingly. For now, this more generic message works for all of the above. If someone has an inkling on how to do this, please pullreq it! Ty <3 */
+
+._empty_kup3j_106 {
+  visibility: hidden;
+}
+
+._empty_kup3j_106::before {
+  content: "There's nothing here...";
+  visibility: visible;
+  display: inline-block;
+}
+
+/* Mutual Friends (a bit scuffed.) */
+
+._tabs_kup3j_69 div:nth-child(2) {
+  width: 25%;
+  text-align: center;
+  font-size: 0px;
+}
+
+._tabs_kup3j_69 div:nth-child(2)::before {
+  content: " Mutual Chums";
+  visibility: visible;
+  font-size: 14px;
+  display: inline-block;
+}
